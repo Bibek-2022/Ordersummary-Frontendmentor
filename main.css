@@ -60,9 +60,21 @@ section p{
 }
 
 #mid-wrapper{
-    display: flex;
+    display: grid;
+    max-width: 30vw;
+    min-height: 30px;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-row: 2fr 1fr;
+    background-color: lightslategray;
+    margin: 30px;
     /* grid-template-columns: 20% 40% 20%;
     grid-template-rows: 40% 10%; */
+}
+#break{
+    display: block;
+}
+#mid-wrapper a{
+    margin-top: 1.25rem;
 }
 
 
