@@ -54,7 +54,22 @@ section p{
     
     margin: 0 auto;
 }
-img{
+.image img{
     width: 100%;
     border-radius: 10px 10px 0px 0px;   
+}
+
+#mid-wrapper{
+    display: flex;
+    /* grid-template-columns: 20% 40% 20%;
+    grid-template-rows: 40% 10%; */
+}
+
+
+#mid-wrapper span{
+    /* position: relative; */
+}
+
+figure img{
+    
 }
